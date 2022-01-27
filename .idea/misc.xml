@@ -4,6 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Project/Udemy/Swoosh/app/src/main/res/drawable/swoosh_button.xml" value="0.216" />
+        <entry key="..\:/Project/Udemy/Swoosh/app/src/main/res/drawable/swoosh_button_checked.xml" value="0.216" />
+        <entry key="..\:/Project/Udemy/Swoosh/app/src/main/res/drawable/swoosh_toggle.xml" value="0.216" />
+        <entry key="..\:/Project/Udemy/Swoosh/app/src/main/res/layout/activity_league.xml" value="0.25" />
         <entry key="..\:/Project/Udemy/Swoosh/app/src/main/res/layout/activity_welcome.xml" value="0.264" />
       </map>
     </option>
