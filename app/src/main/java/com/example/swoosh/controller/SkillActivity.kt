@@ -21,6 +21,16 @@ class SkillActivity : BaseActivity() {
         }
     }
 
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        outState.putParcelable(EXTRA_PLAYER,player)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        player= savedInstanceState.getParcelable<Player>(EXTRA_PLAYER)!!
+    }
+
     fun onBeginnerClicked(view : View){
         ballerSkillBtn.isChecked=false
         player.skill=beginnerSkillBtn.text.toString()
